@@ -9,10 +9,11 @@ const Timeline = () => {
           year={props.year}
           title={props.title}
           sources={props.sources}
-          children={props.children}
           flip={index % 2 === 0}
           final={index === data.length - 1}
-        />
+        >
+          {props.children}
+        </Node>
       ))}
     </ul>
   );

@@ -41,7 +41,7 @@ const Node = ({
         {children}
         <br />
         {sources.map((source, index) => (
-          <SLink href={source.url}>
+          <SLink href={source.url} key={index}>
             {source.title} - {source.author}
           </SLink>
         ))}

@@ -7,8 +7,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-b from-indigo-500 via-sky-500 to-emerald-500">
       <h1 className="text-4xl font-bold">The History of Computers</h1>
       <p className="text-lg text-center m-2">
-        Have you ever wondered how computers came to be? Here's a brief history
-        of the evolution of computers.
+        Have you ever wondered how computers came to be? Here&apos;s a brief
+        history of the evolution of computers.
       </p>
       <Link
         className="btn btn-ghost border border-gray-500 m-2"
